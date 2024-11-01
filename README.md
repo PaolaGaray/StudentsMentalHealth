@@ -6,7 +6,21 @@ The study highlights the mental health challenges faced by international student
 The objective of this analysis is to explore how various factors, such as the length of stay, impact students' mental health diagnostic scores.
 
 ## Data Description
-The dataset consists of 286 rows, with each row representing an individual student.
+The dataset consists of 286 rows, with each row representing an individual student. Below is an overview of the key fields used in this analysis:
+
+| Field Name     | Description                                                                                     |
+|----------------|-------------------------------------------------------------------------------------------------|
+| `inter_dom`    | Types of students (international or domestic)                                                   |
+| `japanese_cate`| Japanese language proficiency                                                                   |
+| `english_cate` | English language proficiency                                                                    |
+| `academic`     | Current academic level (undergraduate or graduate)                                              |
+| `age`          | Current age of student                                                                          |
+| `stay`         | Current length of stay in years                                                                 |
+| `todep`        | Total score of depression (PHQ-9 test)                                                          |
+| `tosc`         | Total score of social connectedness (SCS test)                                                  |
+| `toas`         | Total score of acculturative stress (ASISS test)                                                |
+| `suicide_risk` | Indicator of suicide risk (added for potential predictive modeling)                             |
+
 
 ## Analysis Task
 The main analysis task is to examine how the length of stay (stay) affects the average mental health diagnostic scores of international students. The specific metrics considered include:
